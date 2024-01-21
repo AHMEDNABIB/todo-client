@@ -118,9 +118,6 @@ export default function SidbarTodo() {
 					</Sidebar.Item>
 
 
-					
-
-
 					<Sidebar.Item >
 						<ModalTodo/>
 					</Sidebar.Item>

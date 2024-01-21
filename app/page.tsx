@@ -6,15 +6,15 @@ import TableTodo from "./components/TableTodo";
 
 export default async function Home() {
 
-    const dataTodo = getAllTodos()
+    // const dataTodo = getAllTodos()
 
-	const {data} = await dataTodo;
+	// const {data} = await dataTodo;
 
-	console.log(data)
+	// console.log(data)
 
 	return (
 		<main>
-			<TableTodo data={data} />
+			<TableTodo  />
 		</main>
 	);
 

@@ -8,7 +8,7 @@ export default function ModalTodo() {
 
 	return (
 		<div>
-			<Button className="w-full"  onClick={() => setOpenModal(true)}>
+			<Button className="w-full "  onClick={() => setOpenModal(true)}>
 			<svg
 								className="me-1 -ms-1 w-5 h-5"
 								fill="currentColor"
